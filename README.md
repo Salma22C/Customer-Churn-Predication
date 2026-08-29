@@ -20,6 +20,8 @@ The main goals of the project are:
 
 ## Dataset
 
+The project uses the [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?select=customer_churn_dataset-training-master.csv) from Kaggle.
+
 The dataset contains customer records with demographic, behavioral, and subscription-related information.
 
 ### Features
@@ -40,17 +42,20 @@ The dataset contains customer records with demographic, behavioral, and subscrip
 - `Churn = 1` → Customer churned
 - `Churn = 0` → Customer did not churn
 
-`CustomerID` is an identifier and is not used as a predictive feature because it does not provide meaningful information for predicting churn.
+`CustomerID` is an identifier and is not used as a predictive feature because it does not provide meaningful information for predicting customer churn.
 
 ### Dataset Size
 
-The project uses the provided customer churn training dataset and an associated testing dataset.
+The project uses the provided training and testing datasets from the Kaggle dataset.
 
-> **Note:** The exact original dataset size should be added here based on the dataset files used in the project.
+After preprocessing and the 80/20 train-test split, the processed test set contains:
+
+- **88,167 samples**
+- **15 processed features**
 
 ### Dataset Source
 
-> **Dataset source:** Add the original source/link of the dataset here.
+**Kaggle:** [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?select=customer_churn_dataset-training-master.csv)
 
 ## Methodology
 
