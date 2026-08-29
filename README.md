@@ -46,16 +46,13 @@ The dataset contains customer records with demographic, behavioral, and subscrip
 
 ### Dataset Size
 
-The project uses the provided training and testing datasets from the Kaggle dataset.
+The training dataset contains **440,882 customer records**.
 
-After preprocessing and the 80/20 train-test split, the processed test set contains:
-
-- **88,167 samples**
-- **15 processed features**
+The project uses an 80/20 train-test split. The resulting test set contains **88,167 samples**. After preprocessing, the test data contains **15 processed features**.
 
 ### Dataset Source
 
-**Kaggle:** [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?select=customer_churn_dataset-training-master.csv)
+**Kaggle:** [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset)
 
 ## Methodology
 
