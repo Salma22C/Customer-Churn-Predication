@@ -233,6 +233,17 @@ This project demonstrates an end-to-end Data Mining classification workflow for 
 
 The project covers data understanding, cleaning, exploratory analysis, preprocessing, classification, model evaluation, model comparison, model interpretation, and prediction on new customer data.
 
+## Future Work
+
+Possible extensions of the project include:
+
+- Evaluating the selected model on an independent dataset.
+- Applying cross-validation to further assess model generalization.
+- Investigating feature importance and additional model interpretation techniques.
+- Applying hyperparameter tuning.
+- Testing additional classification algorithms.
+- Deploying the prediction system as a production application.
+
 Among the three evaluated algorithms, the Decision Tree achieved the highest performance on the test set and was selected for the final prediction system.
 
 The project also demonstrates the importance of looking beyond model scores by investigating the relationships in the data and the decision rules learned by the model.
