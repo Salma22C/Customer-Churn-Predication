@@ -78,32 +78,4 @@ else:
 
 
 
-# Raw Dataset
-#     ↓
-# EDA
-#     ↓
-# Preprocessing
-#     ↓
-# Train / Test Split
-#     ↓
-# Train 3 Models
-#     ↓
-# Predict on Test Set
-#     ↓
-# Evaluate
-#     ↓
-# Compare Models
-#     ↓
-# Select Decision Tree
-#     ↓
-# Save Model + Preprocessor
-#     ↓
-# New Customer
-#     ↓
-# Load Saved Model + Preprocessor
-#     ↓
-# Transform New Customer
-#     ↓
-# Predict
-#     ↓
-# CHURN    
+  
