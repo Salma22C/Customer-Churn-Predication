@@ -487,17 +487,3 @@ plt.show()
 
 
 
-# ============================================================
-# EDA Summary
-# ============================================================
-
-# we found patterns such as:
-
-# Support Calls: higher calls → much higher observed churn
-# Payment Delay: 21+ → 100% observed churn in this dataset
-# Age: younger customers generally show higher churn
-# Usage Frequency: lower usage → higher churn
-# Total Spend: lower spending → higher churn
-# Last Interaction: 16–30 → ~66% churn vs ~49% for 1–15
-# Tenure: no clear pattern
-# Subscription Type: relatively small differences
